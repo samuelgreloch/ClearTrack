@@ -21,6 +21,7 @@ Prices
 Quantities
 Total price
 Make sure this feature works reliably with at least 70-80% of receipts (don’t worry about edge cases yet).
+
 Receipt Upload:
 
 
@@ -45,19 +46,20 @@ Choose One Integration:
 For the demo, choose Square (simple API) to integrate sales data.
 Implement OAuth 2.0 authentication with Square to pull transaction data.
 Merge Square data with the receipt data to show a combined view on the dashboard.
+
 7. Polish the Demo (Days 12–13)
 UI/UX Improvements:
 Make sure the UI is clean and intuitive, even if basic.
 Focus on the core user flows: uploading receipts, viewing analytics, and logging in.
 Testing:
 Ensure receipt upload and OCR are working smoothly.
-Test the integration with Square (or whatever external system you're using).
+Test the integration with Square (external system).
 Test the login/signup process.
 8. Final Testing & Demo Prep (Day 14)
 Bug Fixing:
 Ensure that everything works well together. Fix any issues related to UI/UX or core functionality.
 Deployment:
-Deploy your app to a simple platform like Heroku for quick hosting.
+Deploy the app to a simple platform like Heroku for quick hosting.
 Test on the live version to make sure all features are working before the demo.
 
 Key Adjustments to Fit the Timeline:
